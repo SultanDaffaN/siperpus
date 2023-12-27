@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  padding: 1rem;
+  padding-right: 1rem;
+}
+
+@layer components {
+  .btn-green {
+    @apply p-1 py-2 text-sm bg-pGreen2 hover:bg-pGreen3 text-white inline-block rounded-md w-28 font-avertaSemiBold;
+  }
+
+  .btn-outline-green {
+    @apply px-0.5 py-1.5 text-sm bg-white border-2 border-pGreen2 text-pGreen2 hover:bg-pGreen2 hover:text-white  inline-block rounded-md w-28 font-avertaSemiBold;
+  }
+
+  .btn-blue {
+    @apply p-1 py-2 text-sm bg-pBlue2 hover:bg-pBlue3 text-white inline-block rounded-md w-28 font-avertaSemiBold;
+  }
+
+  .btn-outline-blue {
+    @apply px-0.5 py-1.5 text-sm bg-white border-2 border-pBlue2 text-pBlue2 hover:bg-pBlue2 hover:text-white  inline-block rounded-md w-28 font-avertaSemiBold;
+  }
+
+  .btn-red {
+    @apply p-1 py-2 text-sm bg-iRed2 hover:bg-red-600 text-white inline-block rounded-md w-28 font-avertaSemiBold;
+  }
+
+  .btn-outline-red {
+    @apply px-0.5 py-1.5 text-sm bg-white border-2 border-iRed2 text-iRed2 hover:bg-iRed2 hover:text-white  inline-block rounded-md w-28 font-avertaSemiBold;
+  }
+
+  .btn-yellow {
+    @apply p-1 py-2 text-sm bg-iYellow2 hover:bg-iYellow3 text-white inline-block rounded-md w-28 font-avertaSemiBold;
+  }
+
+  .btn-outline-yellow {
+    @apply px-0.5 py-1.5 text-sm bg-white border-2 border-iYellow2 text-iYellow2 hover:bg-iYellow2 hover:text-white  inline-block rounded-md w-28 font-avertaSemiBold;
+  }
+
+  .btn-gray {
+    @apply p-1 py-2 text-sm bg-pGray2 hover:bg-pGray3 text-white inline-block rounded-md w-28 font-avertaSemiBold;
+  }
+
+  .btn-outline-gray {
+    @apply px-0.5 py-1.5 text-sm bg-white border-2 border-pGray2 text-pGray2 hover:bg-pGray2 hover:text-white  inline-block rounded-md w-28 font-avertaSemiBold;
+  }
+}
+
+.slick-list {margin: 0 -5px;}
+.slick-slide>div {padding: 0 5px;}
+
+@font-face {font-family: "AvertaStd-Regular"; 
+            src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot"); 
+            src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix") format("embedded-opentype"), 
+            url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2") format("woff2"), 
+            url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff") format("woff"), 
+            url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf") format("truetype"), 
+            url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular") format("svg"); }
+
+@font-face {font-family: "AvertaStd-Semibold"; 
+            src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot"); 
+            src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix") format("embedded-opentype"), 
+            url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2") format("woff2"), 
+            url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff") format("woff"), 
+            url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf") format("truetype"), 
+            url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold") format("svg"); }
+
+@font-face {font-family: "AvertaStd-Bold"; 
+            src: url("//db.onlinewebfonts.com/t/447315c0c330fd423c8e1cc18024669d.eot"); 
+            src: url("//db.onlinewebfonts.com/t/447315c0c330fd423c8e1cc18024669d.eot?#iefix") format("embedded-opentype"), 
+            url("//db.onlinewebfonts.com/t/447315c0c330fd423c8e1cc18024669d.woff2") format("woff2"), 
+            url("//db.onlinewebfonts.com/t/447315c0c330fd423c8e1cc18024669d.woff") format("woff"), 
+            url("//db.onlinewebfonts.com/t/447315c0c330fd423c8e1cc18024669d.ttf") format("truetype"), 
+            url("//db.onlinewebfonts.com/t/447315c0c330fd423c8e1cc18024669d.svg#AvertaStd-Bold") format("svg"); }
+
+@font-face {font-family: "AvertaStd-Black"; 
+            src: url("//db.onlinewebfonts.com/t/35e06493aed2f14d19a0b8d735c06b62.eot"); 
+            src: url("//db.onlinewebfonts.com/t/35e06493aed2f14d19a0b8d735c06b62.eot?#iefix") format("embedded-opentype"), 
+            url("//db.onlinewebfonts.com/t/35e06493aed2f14d19a0b8d735c06b62.woff2") format("woff2"), 
+            url("//db.onlinewebfonts.com/t/35e06493aed2f14d19a0b8d735c06b62.woff") format("woff"), 
+            url("//db.onlinewebfonts.com/t/35e06493aed2f14d19a0b8d735c06b62.ttf") format("truetype"), 
+            url("//db.onlinewebfonts.com/t/35e06493aed2f14d19a0b8d735c06b62.svg#AvertaStd-Black") format("svg"); }
+
+@font-face {font-family: "AvertaStd-ExtraBold"; 
+            src: url("//db.onlinewebfonts.com/t/a7cc138fc48c290269331acf1739c686.eot"); 
+            src: url("//db.onlinewebfonts.com/t/a7cc138fc48c290269331acf1739c686.eot?#iefix") format("embedded-opentype"), 
+            url("//db.onlinewebfonts.com/t/a7cc138fc48c290269331acf1739c686.woff2") format("woff2"), 
+            url("//db.onlinewebfonts.com/t/a7cc138fc48c290269331acf1739c686.woff") format("woff"), 
+            url("//db.onlinewebfonts.com/t/a7cc138fc48c290269331acf1739c686.ttf") format("truetype"), 
+            url("//db.onlinewebfonts.com/t/a7cc138fc48c290269331acf1739c686.svg#AvertaStd-ExtraBold") format("svg"); }
+
+@font-face {font-family: "AvertaStd-RegularItalic"; 
+            src: url("//db.onlinewebfonts.com/t/eb6c403c220aa1605ead7e82401eaba8.eot"); 
+            src: url("//db.onlinewebfonts.com/t/eb6c403c220aa1605ead7e82401eaba8.eot?#iefix") format("embedded-opentype"), 
+            url("//db.onlinewebfonts.com/t/eb6c403c220aa1605ead7e82401eaba8.woff2") format("woff2"), 
+            url("//db.onlinewebfonts.com/t/eb6c403c220aa1605ead7e82401eaba8.woff") format("woff"), 
+            url("//db.onlinewebfonts.com/t/eb6c403c220aa1605ead7e82401eaba8.ttf") format("truetype"), 
+            url("//db.onlinewebfonts.com/t/eb6c403c220aa1605ead7e82401eaba8.svg#AvertaStd-RegularItalic") format("svg"); }
