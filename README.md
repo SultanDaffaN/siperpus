@@ -7,7 +7,7 @@ The original source code can be accessed at [GitLab Repository](https://gitlab.c
 ---
 
 **Project Team - Kelompok B04 - SIPERPUS**\
-**Faculty: Qorib Munajat S.Kom., M.Kom., MIS**\
+**Lecturer: Qorib Munajat S.Kom., M.Kom., MIS**\
 **Assistant Lecturer: Filip Stephanus**
 
 **Team Members:**
